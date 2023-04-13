@@ -152,28 +152,45 @@
     top: 80px;
 }
 .experience{
-    display: flex;
-    justify-content: end;
-    
-    color: white;
-    width: 100%;
-    height: 100px;
-    background: linear-gradient(to left, #1D9E69 65%, black 35%);
-    position: relative;
     margin-top: 10px;
+    height: 100px;
+    display: flex;
 }
-.experience span{
-    font-size: 12px;
-    margin-left: 8px;
-    
+
+.experience .left{
+    width: 30%;
+    height: 100%;
+    background: #000;
 }
-.ex1{
+
+.experience .right{
+    width: 70%;
+    height: 100%;
+    background: #1D9E69;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.experience .right .ex{
+    height: 70%;
     font-weight: bold;
     font-size: 48px;
-    margin: 24px;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
 }
-.ex2{
+
+.experience .right .ex span{
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+.experience .right .ex:nth-child(1), .experience .right .ex:nth-child(2) {
+    border-right: 1px solid white;
+}
+/* .ex2{
     font-weight: bold;
     font-size: 48px;
     margin: 24px;
@@ -186,4 +203,29 @@
     margin: 24px;
     border-left: 1px solid white;
     padding-left: 34px;
+} */
+
+.about{
+    display: flex;
+    
+}
+.truck2{
+    margin: 86px 100px;
+}
+.truck2 img{
+    height: 550px;
+    width: 750px;
+}
+.aboutus{
+    /* background-color: red; */
+    text-align: center;
+}
+.aboutus h1{
+    color: #000;
+    text-align: center;
+}
+.aboutus p{
+    color: #000;
+    text-align: left;
+
 }
